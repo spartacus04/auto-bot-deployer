@@ -6,7 +6,6 @@ import path from 'path';
 import fs from 'fs';
 import http from 'isomorphic-git/http/node';
 import pm2 from 'pm2';
-import { exec } from 'child_process';
 
 const valid = (key : string) => key == process.env.secret;
 
